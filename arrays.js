@@ -4,6 +4,7 @@
       'kitkat',
       'skittles']
       
+<<<<<<< HEAD
   function addElementToBeginningOfArray(array, element) {
     return [element, ...array]
   }
@@ -42,4 +43,8 @@
   
   function removeElementFromEndOfArray(array) {
     return array.slice(0, array.length - 1)
+=======
+  function addElementToBeggingOfArray(array, element) {
+    return array.unshift(element)
+>>>>>>> 221ecff66d17d09c0e26c64e7bf2d6e5d011eb50
   }
